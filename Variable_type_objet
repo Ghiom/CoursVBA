@@ -1,0 +1,11 @@
+' On attribue des variables : c comme classeur pour Workbook. f comme feuille pour Worksheet.
+Dim c As Workbook, f As Worksheet
+
+' On associe à c le premier classeur
+Set c = Workbooks("classeur1")
+
+' On associe à f la feuille 1 du classeur 1
+Set f = c.Worksheets("feuil1")
+
+' On affiche la valeur de la première cellule de la première feuille, du premier classeur
+MsgBox f.Range("A1").Value
