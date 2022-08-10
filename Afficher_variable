@@ -1,0 +1,10 @@
+Sub test()
+
+Dim ma_variable As String
+ma_variable = "Bonjour"
+
+MsgBox "Cette phrase affiche la valeur de ma variable : " & ma_variable
+
+MsgBox "Cette phrase affiche le nom de ma variable : " & "ma_variable"
+
+End Sub
