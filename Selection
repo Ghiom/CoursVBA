@@ -1,0 +1,19 @@
+Sub tests_selection()
+
+Range("C5").Select
+
+End Sub
+
+
+Sub tests_selection()
+
+Range("C5, D4, F8").Select
+
+End Sub
+
+
+Sub tests_selection()
+
+Range("B2:E8").Select
+
+End Sub
