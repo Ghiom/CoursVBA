@@ -6,3 +6,19 @@ Selection.Font.Underline = xlUnderlineStyleSingle
 Selection.Font.Bold = true
 
 End Sub
+
+
+
+
+Sub texte()
+
+With Selection.Font
+
+    .Size = 14
+    .Name = "Euclid"
+    .Underline = xlUnderlineStyleSingle
+    .Bold = true
+
+End With
+
+End Sub
