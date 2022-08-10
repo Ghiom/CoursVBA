@@ -1,2 +1,3 @@
 Dim ma_variable_explicite [As type]
 
+ma_variable_explicite = 10
