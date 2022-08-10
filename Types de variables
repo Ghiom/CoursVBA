@@ -1,0 +1,16 @@
+'Ces deux lignes exécutent la même chose
+Dim ma_variable%
+Dim ma_variable As Integer
+
+'D'autres exemples de déclaration de variables
+Dim age As Byte
+Dim annee As Integer
+Dim salaire_Zidane As Long
+Dim salaire_Zidane&
+Dim un_pourcentage As Currency
+Dim une_fraction As Single
+Dim une_fraction!
+Dim une_grosse_fraction As Double
+Dim du_texte As String * 50
+
+Dim nom As String, prenom As String, age As Integer, enfants As Integer
