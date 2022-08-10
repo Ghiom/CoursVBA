@@ -1,0 +1,15 @@
+Sub decalages()
+
+'La cellule active ne bouge pas :
+
+ActiveCell.Offset(0, 0).Select
+
+'Décalage d'une ligne vers le bas et d'une colonne vers la droite :
+
+ActiveCell.Offset(1, 1).Select
+
+'Décalage d'une ligne vers le haut et de trois colonnes vers la gauche :
+
+ActiveCell.Offset(-1, -3).Select
+
+End Sub
