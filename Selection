@@ -17,3 +17,34 @@ Sub tests_selection()
 Range("B2:E8").Select
 
 End Sub
+
+
+
+
+
+
+' Pour les lignes
+
+Rows("2").Select
+
+' Sélection des lignes 2 à 5 incluses : 
+
+Rows("2:5").Select
+
+' Sélection de lignes en discontinu :
+
+Range("2:2, 5:5, 6:8").Select
+
+
+
+' Pour les colonnes
+
+Columns("C").Select
+
+' Sélection des colonnes C, D, E et F :
+
+Columns("C:F").Select
+
+' Sélection des colonnes A, C et G :
+
+Range("A:A, C:C, G:G").Select
