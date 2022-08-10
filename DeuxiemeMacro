@@ -1,0 +1,20 @@
+Sub MaSelection()
+
+Range("Ma_Plage").Select
+
+End Sub
+
+
+
+
+
+
+Sub MaSelection()
+
+Range("Ma_Plage").Select
+' on sélectionne la plage Ma_Plage, qui relève de la classe Range, à l'aide de la méthode Select
+
+Range("C11").Activate
+'la cellule C11 devient la cellule active de la sélection, avec la méthode Activate
+
+End Sub
