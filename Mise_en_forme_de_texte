@@ -1,0 +1,8 @@
+Sub texte()
+
+Selection.Font.Size = 14
+Selection.Font.Name = "Euclid"
+Selection.Font.Underline = xlUnderlineStyleSingle
+Selection.Font.Bold = true
+
+End Sub
