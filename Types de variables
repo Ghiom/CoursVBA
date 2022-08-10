@@ -8,6 +8,7 @@ Dim annee As Integer
 Dim salaire_Zidane As Long
 Dim salaire_Zidane&
 Dim un_pourcentage As Currency
+Dim un_pourcentage@
 Dim une_fraction As Single
 Dim une_fraction!
 Dim une_grosse_fraction As Double
