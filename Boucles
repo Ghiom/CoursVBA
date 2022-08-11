@@ -1,0 +1,21 @@
+Sub boucle()
+
+ MsgBox "1"
+ MsgBox "2"
+ MsgBox "3"
+ MsgBox "4"
+ MsgBox "5"
+ MsgBox "6"
+ MsgBox "7"
+ MsgBox "8"
+ MsgBox "9"
+ MsgBox "10"
+
+End Sub
+
+
+For nombre = 1 to 10
+
+ MsgBox nombre
+
+Next nombre
