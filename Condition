@@ -81,3 +81,23 @@ Select Case (note)
   MsgBox "La note est inférieure à 1"
 
 End Select
+
+
+' Pour l'opérateur And c'est comme ceci :
+If age > 18 And permis = True Then
+ MsgBox "Vous êtes en droit de conduire !"
+
+Else
+ MsgBox "Vous êtes trop jeune pour conduire et n'avez pas votre permis !"
+
+End If
+
+' Pour l'opérateur Or C'est la même chose
+
+If age > 14 Or permis = True
+ MsgBox "Vous pouvez conduire un cyclomoteur"
+ 
+Else
+ MsgBox "La marche à pieds, c'est bon pour la santé !"
+ 
+End If
