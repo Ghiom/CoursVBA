@@ -127,3 +127,18 @@ Else
 End If
 
 End Sub
+
+
+Option Compare Binary
+
+Sub test()
+
+If "Hello World" = "hello world" Then
+ MsgBox "Les chaînes sont exactement les mêmes"
+
+Else
+ MsgBox "Il y a des différences entre les chaînes de caractères"
+
+End If
+
+End Sub
