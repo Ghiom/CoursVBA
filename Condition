@@ -1,0 +1,17 @@
+Sub test_condition()
+
+ Dim age As Byte
+ age = 20
+
+' Si vous avez un age supérieur ou égal à 18 :
+
+ If age >= 18 Then
+  MsgBox "Vous êtes un adulte"
+
+' Sinon :
+
+ Else
+  MsgBox "Vous êtes encore mineur"
+
+ End If
+End Sub
