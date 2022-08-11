@@ -9,4 +9,4 @@ invite(3)="Vital"
 
 Option Base 1
 
-Dim mon_tableau(1 To 15) as String
+Dim invite(1 To 15) as String
