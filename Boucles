@@ -38,3 +38,18 @@ Sub rebours()
  MsgBox "Boom !"
 
 End Sub
+
+
+ub alphabet()
+
+ Dim lettre(25) as String
+
+ For n = 0 To 25
+  lettre(n) = Chr(n+65)
+ Next n
+
+ For n = 0 To 25
+  MsgBox lettre(n)
+ Next n
+
+End Sub
