@@ -40,7 +40,7 @@ Sub rebours()
 End Sub
 
 
-ub alphabet()
+Sub alphabet()
 
  Dim lettre(25) as String
 
