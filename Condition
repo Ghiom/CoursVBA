@@ -142,3 +142,39 @@ Else
 End If
 
 End Sub
+
+
+Option Compare Text
+
+Sub test_comparaison()
+
+If "Hello World" Like "Hello ?orld" Then
+' Cette ligne renvoie True
+
+If "Hello World" Like "Hello *" Then
+' Cette ligne renvoie True
+
+If "Hello World" Like "Hell? world!" Then
+' Cette ligne renvoie False non pas parce que le "w" est en majuscule puis minuscule
+' ni à cause du ?, mais parce que dans la seconde chaine il y a un "!". 
+
+If "Hello 0" Like "Hello #" Then
+' Cette ligne renvoie True car 0 est un chiffre.
+
+If "Hello 0" Like "Hello [012345]" Then
+' Cette ligne renvoie True car le caractère de la première chaîne est présent dans 
+' la liste entre crochets.
+
+If "Hello 0" Like "Hello [5-9]" Then
+' Cette ligne renvoie False car 0 n'est pas compris entre 5 et 9 compris.
+
+If "Hello 0" Like "Hello [!5-9]" Then
+' Cette ligne renvoie True car 0 n'est pas compris entre 5 et 9 compris.
+' C'est l'inverse de l'exemple précédant.
+
+If "Hello World ?" Like "Hello World [?]" Then
+' Cette ligne renvoie True car le caractère à la fin est bien un point d'interrogation.
+' N'oubliez pas les crochets, sinon, n'importe quel caractère peut être à la place
+' du point d'interrogation dans la première chaîne.
+
+End Sub
