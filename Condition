@@ -101,3 +101,12 @@ Else
  MsgBox "La marche à pieds, c'est bon pour la santé !"
  
 End If
+
+
+If Not(2 = 3) Then
+ MsgBox "Les valeurs ne sont pas égales"
+
+Else
+ MsgBox "Les valeurs sont égales"
+
+End If
