@@ -110,3 +110,20 @@ Else
  MsgBox "Les valeurs sont égales"
 
 End If
+
+
+Sub test()
+
+If Worksheets(1) Is Worksheets(1) Then
+ MsgBox "Les deux feuilles sont identiques"
+Else
+ MsgBox "Les deux feuilles ne sont pas identiques"
+End If
+
+If Worksheets(1) Is Worksheets(2) Then
+ MsgBox "Les deux feuilles sont identiques"
+Else
+ MsgBox "Les deux feuilles ne sont pas identiques"
+End If
+
+End Sub
