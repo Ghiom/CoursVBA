@@ -32,3 +32,33 @@ Sub test_condition()
 
  End If
 End Sub
+
+
+Sub test_note()
+ Dim note As Byte
+ note = 12.4
+
+ Select Case (note)
+  Case Is < 8
+    MsgBox "Vous n'avez pas votre baccalauréat"
+
+  Case Is < 10
+    MsgBox "Vous devez aller aux rattrapages"
+
+  Case Is < 12
+    MsgBox "Félicitations ! Vous avez votre bac !"
+
+  Case Is < 14
+    MsgBox "Vous avez la mention Assez Bien"
+
+  Case Is < 16
+    MsgBox "Vous avez la mention Bien"
+
+  Case Is < 18
+    MsgBox "Vous avez la mention Très Bien"
+
+  Case Else
+    MsgBox "Vous avez les félicitations du jury et les miennes par la même occasion"
+
+ End Select
+End Sub
