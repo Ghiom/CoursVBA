@@ -1,0 +1,12 @@
+Dim invite(50) As String
+
+invite(0)="Robert"
+invite(1)="Marcel"
+invite(2)="André"
+invite(3)="Vital"
+...
+
+
+Option Base 1
+
+Dim mon_tableau(1 To 15) as String
