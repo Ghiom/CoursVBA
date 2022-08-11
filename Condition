@@ -62,3 +62,22 @@ Sub test_note()
 
  End Select
 End Sub
+
+
+Select Case (note)
+ Case 1
+  MsgBox "La note est de 1"
+
+ Case 2, 3
+  MsgBox "La note est de 2 ou 3"
+
+ Case 4 To 6
+  MsgBox "La note est de 4, 5 ou 6"
+
+ Case Is > 6
+  MsgBox "La note est supérieure à 6"
+
+ Case Else
+  MsgBox "La note est inférieure à 1"
+
+End Select
