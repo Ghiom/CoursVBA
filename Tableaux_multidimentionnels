@@ -1,0 +1,8 @@
+' On crée un tableau de 11 colonnes et 5 lignes
+Dim mon_tableau(10, 4) As String
+
+' On peut alors attribuer des valeurs aux différents éléments du tableau
+mon_tableau(0, 0) = "Première cellule"
+mon_tableau(4, 2) = "Cellule de la 5ème colonne et 3ème ligne"
+
+Dim super_tableau(5, 3, 6) As String
