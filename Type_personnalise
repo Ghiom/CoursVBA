@@ -1,0 +1,18 @@
+Type joueur
+    tribu As String
+    vies As Byte
+    points As Integer
+End Type
+
+' On déclare une variable joueur
+Dim bat538 As joueur
+
+' On renseigne les différents champs du type
+bat538.tribu = "Zér0"
+bat538.vies = 5
+bat538.points = 0
+
+'On affiche un à un les paramètres
+MsgBox bat538.tribu
+MsgBox bat538.vies
+MsgBox bat538.points
